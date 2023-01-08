@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-#import requests
+
 
 app = FastAPI()
 
@@ -40,7 +40,7 @@ recipes = [
     Recipe(id=23, name="Grilled Chicken with Mango Salsa", diet=["Gluten free"], ingredients=["chicken breasts", "mango", "red onions", "jalapeño", "cilantro", "lime juice", "olive oil", "salt"], instructions="1. Preheat a grill to medium-high heat. 2. In a small bowl, combine diced mango, diced red onions, minced jalapeño, chopped cilantro, the juice of 1 lime, and a drizzle of olive oil. Season the salsa with salt to taste. 3. Season the chicken breasts with salt and grill them for 6-8 minutes on each side, or until they are cooked through. 4. Serve the grilled chicken with the mango salsa on top.", cuisine="Mexican", cook_time=20)
 ]
 
-
+#Recipe endpoints
 
 @app.get("/recipes")
 def read_recipes():
