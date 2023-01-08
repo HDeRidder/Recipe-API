@@ -1,6 +1,6 @@
 version: "3.9"
 services:
- randomizer-service:
-  image: miverboven/python-api-test
-  ports:
-    - "8000:8000"
+  recipe-api:
+    image: heridder/python-api-test:latest
+    ports:
+      - "8000:8000"
