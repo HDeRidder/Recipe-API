@@ -1,6 +1,6 @@
 version: "3.9"
 services:
  system-service:
-  image: system-service-1/heridder/recipe-api
+  image: heridder/recipe-api
   ports:
     - "8000:8000"
