@@ -1,6 +1,6 @@
 version: "3.9"
 services:
   recipe-api:
-    image: heridder/python-api-test:latest
+    image: heridder/recipe-api:latest
     ports:
       - "8000:8000"
