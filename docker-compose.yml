@@ -1,6 +1,6 @@
 version: "3.9"
 services:
- system-service-1:
-  image: heridder/recipe-api
+ randomizer-service:
+  image: heridder/python-api-test
   ports:
     - "8000:8000"
